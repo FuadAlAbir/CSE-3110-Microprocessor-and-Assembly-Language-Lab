@@ -1,3 +1,14 @@
+; DATE: 19 JUNE 2019 
+
+; INPUT [character]: a-z, A-Z
+; OUTPUT [character]:   if UPPER_case, print lower_case
+;                       if lower_case, print UPPER_case
+; SAMPLE INPUT/OUTPUT
+    ; INPUT: a
+    ; OUTPUT: A
+    ; INPUT: L
+    ; OUTPUT: l
+    
 .MODEL SMALL
 .STACK 100H
 .DATA
