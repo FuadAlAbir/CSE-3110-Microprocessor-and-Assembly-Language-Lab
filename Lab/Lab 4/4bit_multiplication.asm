@@ -1,3 +1,11 @@
+; DATE: 17 JULY 2019 
+
+; INPUT : Two 8 bit hexadecimal number
+; OUTPUT: multiplication of them (w/o using MUL or IMUL)
+; SAMPLE INPUT/OUTPUT
+    ; INPUT : 02 05
+    ; OUTPUT: 0000000000001010
+    
 .MODEL SMALL
 .STACK 100H
 .DATA 

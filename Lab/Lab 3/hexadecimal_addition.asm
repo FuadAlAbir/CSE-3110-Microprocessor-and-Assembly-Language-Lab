@@ -1,3 +1,11 @@
+; DATE: 10 JULY 2019 
+
+; INPUT : 2 16 bit hexadecimal numbers 
+; OUTPUT: addition of them in binary
+; SAMPLE INPUT/OUTPUT
+    ; INPUT : 1111 000A
+    ; OUTPUT: 0001000100011011
+
 .MODEL SMALL
 .STACK 100H
 .DATA 
@@ -81,8 +89,8 @@ MAIN PROC
         JMP _REVERSE 
                                       
     _SUM_SEGMENT:
-        ;ADD BX, DX          ; ORIGINAL HEX - DX
-        ADD BX, CX           ; REVERSED HEX - CX
+        ADD BX, DX          ; ORIGINAL HEX - DX
+        ;ADD BX, CX           ; REVERSED HEX - CX
         JC _CARRY_ONE
                    
     MOV DH, 0   
