@@ -1,6 +1,3 @@
-
-; 2018_Q4_a: 
-
 ; Author    : Fuad Al Abir
 ; Date      : 27 Oct 2019
 ; 2018_Q4_a : Write an assembly program to determine
