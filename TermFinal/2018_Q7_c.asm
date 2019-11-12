@@ -84,7 +84,7 @@ MAIN PROC
     INT 21h
     _ELSE2:
     INC SI
-    LOOP _LETTER
+    JMP _LETTER
     
     _LETTER_END:
     MOV AH, 4Ch
